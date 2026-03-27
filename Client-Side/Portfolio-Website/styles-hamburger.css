@@ -1,0 +1,138 @@
+/*html {
+    background-color: white;
+    scroll-behavior: smooth;
+
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: 2px solid black;
+    height: 100vh;
+    min-width: 350px;
+    max-width: 650px;
+    margin: 0 auto;
+    background-color: #333;
+}*/
+
+/*header {
+    padding: 0;
+    background-color: #333;
+}
+
+.section {
+    height: 150vh;
+    width: 100%;
+    background-color: grey;
+    border: 1px solid black;
+}*/
+/* 
+#section1 { background-color: red ;}
+#section2 { background-color: blue ;}
+#section3 { background-color: #bada55 ;}
+#section4 { background-color: purple ;}
+#section5 { background-color: orange ;} */
+
+#hamburger {
+    position: relative;
+    display: inline-block;
+    border: 3px solid var(--secondary-color);
+    height: 3rem;
+    width: 3rem;
+    margin: 5% 80% 2% 5%;
+    padding: 0;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+}
+
+.hamline {
+    width: 80%;
+    height: 2px;
+    padding: 0;
+    margin: 3px 0 3px 0;
+    background-color: var(--secondary-color);
+}
+
+#mobileMenu {
+    /* position: relative;
+    color: white;
+    background-color: #333;
+    z-index: 10;
+    max-height: 0;
+    /*opacity: 0;*/
+    /* overflow: hidden;
+    transition: all .200s ease-in-out;  */
+
+    position: absolute;
+    top: 70px;             /* adjust so it's right under the header */
+    left: 5%;           /* lines up under the hamburger */
+    
+    background-color: rgb(117, 36, 36);
+    border-radius: 8px;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    
+    padding: 0.5rem 1rem;
+    
+    width: max-content;    /* only as wide as needed */
+    
+    gap: 0.5rem;
+    box-shadow: 0px 4px 10px rgba(0,0,0,0.3);
+
+    z-index: 999;
+
+    /* animation */
+    max-height: 0;
+    opacity: 0;
+    overflow: hidden;
+    transition: max-height .25s ease, opacity .25s ease;
+}
+
+#mobileMenu .menuLink {
+    font-size: 1.1rem;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+}
+
+#desktopMenu {
+    display: none;
+}
+
+/* .menuItem {
+    color: white;
+    font-size: 2rem;
+    display: block;    
+    width: fit-content;
+    margin: 15% auto;
+} */
+
+.menuItem:last-child {
+    margin-bottom: 2rem;
+}
+
+/* This stylesheet is designed mobile-first. The styles below will kick in only when the viewport is at 650px or greater. */
+
+@media(min-width: 650px) {
+    #mobileMenu, #hamburger {
+        display: none;
+    }
+    #desktopMenu {
+        display: flex;
+        justify-content: space-around;
+    }
+    body {
+        max-width: 1920px;
+    }
+    .menuItem {
+        margin: 0;
+    }
+}
+
