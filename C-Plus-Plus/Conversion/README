@@ -1,17 +1,16 @@
 # ⚙️ C++ to HTML Conversion Utility
 
-A console-based C++ application designed to read raw source files and convert them into beautifully formatted, syntax-safe HTML files using character escapes.
+A console-based C++ application designed to read source files and safely wrap them into formatted HTML layouts.
 
 ⚠️ **Project Status: Work in Progress**
-This tool is under active development. The file structure and formatting rules are established, with robust edge-case exception handling and continuous code refinements underway.
+This tool is currently under active development. The path validation loops and core file stream logic are implemented, with system testing and character formatting rules being finalized next.
 
-## 🛠️ Features & Technical Highlights
-* **Windows Path Validation:** Leverages strict regex patterns to validate Windows-specific file paths and prevent prohibited system naming formats.
-* **Custom Exception Handling:** Implements specialized error classes (`MyCustomException`) to manage file stream failures safely without crashing.
-* **HTML Generation:** Automatically reads a target `.cpp` file line-by-line and outputs clean text nested inside an HTML `<PRE>` structure for optimized web display.
+## 🛠️ Tech Stack
+* **Language:** C++ (Standard ISO library)
+* **Core Libraries:** `<fstream>` for file handling, `<regex>` for input validation
+* **IDE:** CLion / Visual Studio
 
-## 📂 Project Components
-* `main.cpp`: Core application driver controlling console loops, path logic, and stream validation.
-* `CustomString.h / .cpp`: Customized string utility functions (e.g., character escape translation logic).
-* `CustomException.h`: Specialized C++ exception hierarchy extensions tailored to file operation errors.
-
+## ✨ Key Planned Features
+* Safe Windows path and file name pattern matching using Regular Expressions.
+* Multi-layered error trapping with custom exception classes.
+* Automated file translation mapping raw source text to HTML `<PRE>` blocks.
