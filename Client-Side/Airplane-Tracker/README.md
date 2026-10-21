@@ -7,4 +7,3 @@ An interactive web application that tracks and displays live flights currently o
 * **Interactive Map UI:** Renders dynamic flight paths and markers using the **Leaflet.js** mapping framework.
 * **Custom Rotations:** Utilizes `leaflet-rotatedmarker.js` to dynamically rotate airplane icons on the map to match their actual heading/bearing.
 
-The flights' data is fetched from [OpenSky API](http://prog2700-fwrux.ondigitalocean.app/opensky).
