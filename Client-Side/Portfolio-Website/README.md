@@ -8,5 +8,4 @@ A personal professional website designed to showcase my software development pro
 * **Clean Layout:** Organized using semantic HTML5 and vanilla CSS3 styling grids.
 
 ## 🚀 Live Demo
-[Click here to view my live website!](https://portfolio-ygh.netlify.app/) *(Replace this with your GitHub Pages URL)*
-
+[Click here to view my live website!](https://portfolio-ygh.netlify.app/)
