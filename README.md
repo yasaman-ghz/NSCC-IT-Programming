@@ -14,9 +14,13 @@ Welcome to my repository showcasing a selection of programming projects and lab 
 ### ☕ Java Application Development
 * **[Java/Accounting-Reporter](./Java/Accounting-Reporter)**: A **Java Swing desktop application** that gathers user input to calculate finances for an educational institution and automatically generates a structural report.
 
+### ⚙️ C++ Application Development
+* **[C++ Conversion Utility](./C-Plus-Plus/Conversion)**: A console application that reads raw `.cpp` files and safely translates them into web-friendly, character-escaped HTML formats using Regular Expressions (Regex) and custom stream exception tracking.
+
 ---
 
 ## 🛠️ Tech Stack & Skills Demonstrated
-* **Languages & APIs:** Java (Swing GUI), JavaScript (ES6+), HTML5, CSS3, OpenSky API, Game APIs
-* **Libraries & Frameworks:** Leaflet.js
-* **Core Concepts:** Desktop GUI Development, DOM Manipulation, Responsive Web Design, Asynchronous Programming (API Fetching), Object-Oriented Programming (OOP)
+* **Languages & APIs:** Java (Swing GUI), C++, JavaScript (ES6+), HTML5, CSS3, OpenSky API, Game Puzzles API
+* **Libraries & Frameworks:** Leaflet.js, `<fstream>`, `<regex>`
+* **Core Concepts:** Desktop GUI Development, DOM Manipulation, Responsive Web Design, Asynchronous Programming (API Fetching), Object-Oriented Programming (OOP), Custom Exception Handling, Pattern Matching
+
