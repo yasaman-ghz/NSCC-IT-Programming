@@ -1,0 +1,3 @@
+C:/0-CPP/Assignments/Conversion/cmake-build-debug/CMakeFiles/Conversion.dir
+C:/0-CPP/Assignments/Conversion/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/0-CPP/Assignments/Conversion/cmake-build-debug/CMakeFiles/rebuild_cache.dir

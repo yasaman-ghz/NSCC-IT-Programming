@@ -1,0 +1,14 @@
+[
+{
+  "directory": "C:/0-CPP/Assignments/Conversion/cmake-build-debug",
+  "command": "C:\\Users\\y81gh\\AppData\\Local\\Programs\\CLion\\bin\\mingw\\bin\\c++.exe -g -std=gnu++23 -fdiagnostics-color=always -fmodules-ts -fmodule-mapper=CMakeFiles\\Conversion.dir\\main.cpp.obj.modmap -MD -fdeps-format=p1689r5 -x c++ -o CMakeFiles\\Conversion.dir\\main.cpp.obj -c C:\\0-CPP\\Assignments\\Conversion\\main.cpp",
+  "file": "C:/0-CPP/Assignments/Conversion/main.cpp",
+  "output": "C:/0-CPP/Assignments/Conversion/cmake-build-debug/CMakeFiles/Conversion.dir/main.cpp.obj"
+},
+{
+  "directory": "C:/0-CPP/Assignments/Conversion/cmake-build-debug",
+  "command": "C:\\Users\\y81gh\\AppData\\Local\\Programs\\CLion\\bin\\mingw\\bin\\c++.exe -g -std=gnu++23 -fdiagnostics-color=always -fmodules-ts -fmodule-mapper=CMakeFiles\\Conversion.dir\\CustomString.cpp.obj.modmap -MD -fdeps-format=p1689r5 -x c++ -o CMakeFiles\\Conversion.dir\\CustomString.cpp.obj -c C:\\0-CPP\\Assignments\\Conversion\\CustomString.cpp",
+  "file": "C:/0-CPP/Assignments/Conversion/CustomString.cpp",
+  "output": "C:/0-CPP/Assignments/Conversion/cmake-build-debug/CMakeFiles/Conversion.dir/CustomString.cpp.obj"
+}
+]
