@@ -7,15 +7,16 @@ Welcome to my repository showcasing a selection of programming projects and lab 
 ## 📁 Repository Contents
 
 ### 🖥️ Client-Side Web Development
-* **[Client-Side](./Client-Side)**: Front-end applications focusing on interactive user experiences, web languages, and client-side logic.
-  * *Features:* Three-in-a-row Game, interactive components.
+* **[Portfolio Website](./Client-Side/Portfolio-Website)**: My personal professional website featuring a custom design, integrated resume layout, and responsive mobile navigation.
+* **[Airplane Tracker](./Client-Side/Airplane-Tracker)**: An interactive map application that tracks live flights originating from Canada using real-time data from the **OpenSky API** and rendering via **Leaflet.js**.
+* **[Three-in-a-row Game](./Client-Side/Three-in-a-row-Game)**: A puzzle game built using vanilla JavaScript DOM manipulation that fetches game data from an external API.
 
 ### ☕ Java Application Development
-* **[Java/Accounting-Reporter](./Java/Accounting-Reporter)**: Object-oriented programming solutions utilizing Java for data processing and structural reporting.
-  * *Features:* Automated accounting generation, file parsing, business logic.
+* **[Java/Accounting-Reporter](./Java/Accounting-Reporter)**: A **Java Swing desktop application** that gathers user input to calculate finances for an educational institution and automatically generates a structural report.
 
 ---
 
 ## 🛠️ Tech Stack & Skills Demonstrated
-* **Languages:** Java, JavaScript, HTML/CSS, C
-* **Core Concepts:** Object-Oriented Programming (OOP), Scripting, UI/UX Logic, State Management
+* **Languages & APIs:** Java (Swing GUI), JavaScript (ES6+), HTML5, CSS3, OpenSky API, Game APIs
+* **Libraries & Frameworks:** Leaflet.js
+* **Core Concepts:** Desktop GUI Development, DOM Manipulation, Responsive Web Design, Asynchronous Programming (API Fetching), Object-Oriented Programming (OOP)
